@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6eef5">
+  <title>Juan & Dara — little things we keep</title>
+  <meta name="description" content="A delicate little archive of Juan & Dara — photographs, memories, and stories.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar glass">
+    <a class="brand" href="#top" aria-label="Juan and Dara home"><span>J</span><i>&</i><span>D</span></a>
+    <nav><a href="#gallery">Gallery</a><a href="#stories">Stories</a><a href="#about">Us</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">a little archive of us</p>
+      <h1>Juan <em>&</em> Dara</h1>
+      <p class="hero-copy">Fifteen little frames. A handful of ordinary moments. And all the tiny reasons they became worth keeping.</p>
+      <a class="scroll-cue" href="#gallery"><span>↓</span> wander through</a>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="section-heading"><p class="eyebrow">the photographs</p><h2>Little pieces of <em>us.</em></h2><p>Some are posed. Some are sleepy. Some are simply proof that a day happened — together.</p></div>
+      <div class="gallery" id="galleryGrid"></div>
+    </section>
+
+    <section id="stories" class="section stories-section">
+      <div class="section-heading"><p class="eyebrow">the stories</p><h2>What the pictures <em>don't say.</em></h2><p>Every photograph gets a small piece of fiction here — not because the moment needs changing, but because memories like room to breathe.</p></div>
+      <div class="story-list" id="storyList"></div>
+    </section>
+
+    <section id="about" class="section about-section glass">
+      <div><p class="eyebrow">juan & dara</p><h2>A place for the <em>little things.</em></h2></div>
+      <div class="about-copy"><p>This isn't meant to be a perfect timeline. It's more like a drawer full of photographs: a little messy, a little sentimental, and full of things that would be easy to forget if they weren't kept somewhere.</p><p>Come back whenever you want. Add more photographs. Let the archive grow with you.</p></div>
+    </section>
+  </main>
+
+  <footer><span>Juan & Dara</span><span>made to keep the little things close.</span></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="close" aria-label="Close">×</button><div class="lightbox-inner"><img id="lightboxImg" src="" alt=""><div class="lightbox-caption"><p id="lightboxMeta"></p><h3 id="lightboxTitle"></h3><p id="lightboxStory"></p></div></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
